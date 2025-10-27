@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: plum;
+}
+
 .main-container {
     height: 70vh;
     width: 40vh;
@@ -53,4 +57,30 @@ ul li a:hover {
 .hambuger-btn {
     position: absolute;
     right: 0;
+}
+
+@media only screen and (min-width:  768px) {
+    .cancel-btn, .hambuger-btn {
+        display: none;
+    }
+
+    .main-container {
+        display: block;
+        background-color: transparent;
+        display: flex;
+        height: fit-content;
+        width: 100%;
+        position: relative;
+    }
+
+    ul li a {
+        line-height: normal;
+    }
+
+    ul {
+        display: flex;
+        gap: 45px;
+        margin: 0 auto;
+        padding-top: 1em;
+    }
 }

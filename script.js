@@ -1,5 +1,5 @@
-const bgColor = document.querySelector("body")
-bgColor.style.backgroundColor = "plum"
+// const bgColor = document.querySelector("body")
+// bgColor.style.backgroundColor = "plum"
 
 const displayBtn = document.querySelector(".hambuger-btn")
 const hideBtn = document.querySelector(".cancel-btn")
