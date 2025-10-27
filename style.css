@@ -3,3 +3,54 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.main-container {
+    height: 70vh;
+    width: 40vh;
+    background-color: #4cc9f0;
+    color: #112A46;
+    position: absolute;
+    right: 0;
+    border-bottom-left-radius: 15px;
+    display: none;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    color: #112A46;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 2rem;
+    line-height: 3em;
+}
+
+ul li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.cancel-btn {
+    height: 10vh;
+    margin-bottom: -2em;
+    margin: 0 auto;
+}
+
+.image-div {
+    text-align: center;
+}
+
+.image-div:hover, .hambuger-btn:hover {
+    cursor: pointer;
+}
+
+.hambuger-btn {
+    position: absolute;
+    right: 0;
+}
